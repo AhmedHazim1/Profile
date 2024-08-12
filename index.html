@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <link rel="icon" href="/imges/logo.png">
+
+    <link rel="stylesheet" href="./css/main.css">
+    
+    <script src="./js/app.js" defer></script>
+    <script src="./js/particles.js" defer></script>
+    <title>Ahmed Hazim</title>
+</head>
+
+<body>
+    <header>
+        <div class="importantLinks">
+            <a class="importantLink" href="https://github.com/AhmedHazim1" target="_blank">
+                <img class="icon" src="./imges/github.png" alt="github"> 
+            </a>
+        </div>
+        
+        <nav>
+            <div id="ham" class="menu-close">
+                <div></div>
+            </div>
+            
+            <div class="menu">
+                <ul class="menu-content">
+                    <li>
+                        <a class="mouseBiger" href="#home">Home</a>
+                    </li>
+
+                    <li>
+                        <a class="mouseBiger" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="mouseBiger" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="mouseBiger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1 class="mouseBiger"> 
+                <strong>Ahmed Hazim</strong> 
+                <span>Programmer</span>
+            </h1>
+        </section>
+        
+        <section id="projects">
+                    <div class="project">
+                        <img class="projectImg mouseBiger" src="./imges/rockPaperScissors.png" alt="project img">
+                        <div class="projectInfo">
+                            <h2 class="projectTitle">Rock paper scissors</h2>
+                            <p class="projectDesc">rock paper scissors game</p>
+                            
+                            <h3>Tools used</h3>
+                            <ul class="projectTools">
+                                <li>Html</li>
+                                <li>Css</li>
+                                <li>JS</li>
+                            </ul>
+                        </div>
+                        <div class="projectBtns">
+                            <a href="https://github.com/AhmadHazm/rockPaperScissors" target="_blank">
+                                <button class="Btn projectBtn mouseBiger">View Code</button>
+                            </a>
+                            
+                            <a class="cardBtn" href="https://ahmadhazm-rockpaperscissors.netlify.app/" target="_blank">
+                                <button class="Btn projectBtn mouseBiger">View Live</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <img class="projectImg mouseBiger" src="./imges/countries.png" alt="project img">
+                        <div class="projectInfo">
+                            <h2 class="projectTitle">Where is the world?</h2>
+                            <p class="projectDesc">project show informations about countries name flag languages etc...</p>
+                            
+                            <h3>Tools used</h3>
+                            <ul class="projectTools">
+                                <li>Html</li>
+                                <li>Css</li>
+                                <li>Js</li>
+                                <li>Rest Countries API</li>
+                            </ul>
+                        </div>
+                        <div class="projectBtns">
+                            <a href="https://github.com/AhmadHazm/where-is-the-world" target="_blank">
+                                <button class="Btn projectBtn mouseBiger">View Code</button>
+                            </a>
+                            
+                            <a class="cardBtn" href="https://the-world-countries.netlify.app/" target="_blank">
+                                <button class="Btn projectBtn mouseBiger">View Live</button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <img class="projectImg mouseBiger" src="./imges/todoAppimg.png" alt="project img">
+                        <div class="projectInfo">
+                            <h2 class="projectTitle">Todo App</h2>
+                            <p class="projectDesc">Todo app built with html css js.</p>
+
+                            <h3>Tools used</h3>
+                            <ul class="projectTools">
+                                <li>Html</li>
+                                <li>Css</li>
+                                <li>Js</li>
+                            </ul>
+                        </div>
+
+                        <div class="projectBtns">
+                            <a href="https://github.com/AhmadHazm/todo" target="_blank">
+                                <button class="Btn projectBtn mouseBiger">View Code</button>
+                            </a>
+                            
+                            <a href="https://ahmadhazm-todoapp.netlify.app/" target="_blank">
+                                <button class="Btn projectBtn mouseBiger">View Live</button>
+                            </a>
+                        </div>
+                    </div>
+            </section>
+
+            <section id="about">
+                <div class="aboutContent">
+                    <h4 class="mouseBiger">about me</h4>
+                    <p>I'm a programmer who really enjoys programming and working in new project. I'm also studying computer science at the University of Technology. I love learning new things and taking on challenges—it keeps things interesting.</p>
+                    
+                    <a href="#contact">
+                        <button class="Btn mouseBiger">contact me</button>
+                    </a>
+                </div>
+                    
+            </section>
+
+            <section id="contact">
+                <div class="contactContent">
+                    <h5 class="mouseBiger">contact me</h5>
+
+                    <p>Email: 1ahmadhazm@gmail.com</p>
+                    <ul class="contactLinks">
+                        <li class="mouseBiger">
+                            <a href="https://github.com/AhmedHazim1" target="_blank">
+                                <img class="icon" src="./imges/github.png" alt="github"> 
+                            </a>
+                        </li>
+                    </ul>             
+                </div>
+            </section>
+    </main>
+    
+    <canvas id="mainCanvas"></canvas>
+</body>
+</html>
